@@ -18,7 +18,7 @@ spring:
     activate:
       on-profile: k8s
   datasource:
-    url: jdbc:postgresql://postgres.razorpay-core.svc.cluster.local:5432/razorpay-merchant-db
+    url: jdbc:postgresql://postgres.razorpay-core.svc.cluster.local:5433/razorpay-merchant-db
     username: merchant_user
     password: ${MERCHANT_DB_PASSWORD}
 
